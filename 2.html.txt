@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video 1</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+    }
+    video {
+      width: 1910px;
+      height: 1200px;
+      object-fit: cover;
+      pointer-events: none; /* evita pausas */
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop muted playsinline>
+    <source src="2.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
